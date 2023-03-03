@@ -1,0 +1,46 @@
+{
+    "config": {
+        "slowMo": "50",
+        "channel": "chrome",
+        "headless": "No",
+        "subject": "with_sub",
+        "inbox_percentage_count": "100%",
+        "inbox_ns_type": "one",
+        "reply_mail": "no",
+        "inbox_action": [
+            "inbox_archive",
+            "inbox_star"
+        ],
+        "spam_percentage_count": "100%",
+        "spam_ns_type": "one",
+        "spam_action": [
+            "spam_notspam"
+        ],
+        "compose_type": "",
+        "compose_count": "",
+        "compose_subject": "",
+        "compose_body": "",
+        "compose_to": "",
+        "handlePopup": "0",
+        "xpath": "",
+        "Worker": "10",
+        "ProcessType": "notspam",
+        "spam_percentage": "0",
+        "inbox_percentage": "0",
+        "read_inbox": "No",
+        "read_spam": "No",
+        "seed_count": 1,
+        "spam_bulk_process": "No",
+        "ColorScheme": "",
+        "Entity": "Team P"
+    },
+    "functions": {
+        "readInbox": "__readInbox",
+        "reply": "__reply",
+        "deleteMails": {
+            "Inbox": "True",
+            "Spam": "True"
+        },
+        "changePassword": "__changePassword"
+    }
+}

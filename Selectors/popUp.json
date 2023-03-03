@@ -1,0 +1,11 @@
+{
+    "popUp" : {
+        "customizeLookPopup" : "//button[@title='Maybe later' and @data-test-id='maybe-later-cue-button']",
+        "queButtonPopup" : "//button[@title='Maybe later' and @data-test-id='maybe-later-cue-button']",
+        "themesPopup" : "//button[@title='Done' and @data-test-id='themes-cue-done']",
+        "newPopup" : "//div[@data-test-id='text-cue-close-icon' and @class='Y_eo6 Q_6Eb4 r_P']",
+        "calender" : "//button[@type='button' and text()='Got it']",
+        "breakingNews" : "//path[@d='M10 9l5.1-5.1c.3-.3.7-.3 1 0 .3.3.3.7 0 1L11 10l5.1 5.1c.3.3.3.7 0 1-.3.3-.7.3-1 0L10 11l-5.1 5.1c-.3.3-.7.3-1 0-.3-.3-.3-.7 0-1L9 10 3.9 4.9c-.3-.3-.3-.7 0-1s.7-.3 1 0L10 9z']",
+        "allPopUp" : "//button[@tabindex='-1' and contains(@title,'Maybe later')] | //button[@title='Maybe later' and @data-test-id='maybe-later-cue-button'] | //button[@title='Done' and @data-test-id='themes-cue-done'] | //div[@data-test-id='text-cue-close-icon' and @class='Y_eo6 Q_6Eb4 r_P'] | //button[@type='button' and text()='Got it'] | //button[@tabindex='0' and @title='Close'] | //button[@id='mail-accept-all-1'] | //input[@value='I Accept'] | //button[@type='submit' and @name='agree'] | //button[@tabindex='0' and @title='Close'] | //button[@tabindex='-1'  and  @type='button' and  @title='Got it'] | //button[@type='button' and @data-test-id='primary-btn']"
+    }
+}

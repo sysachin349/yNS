@@ -1,0 +1,10 @@
+{
+    "Login" : {
+        "url" : "https://mail.yahoo.com/", 
+        "Login" : "//a[contains(@href,'https://login.yahoo.com') and @alt='Sign in'] | //a[@name='username' and contains(@href,'https://login.yahoo.com')] | //input[@id='login-username' and @name='username']",
+        "userName" : "//input[@id='login-username']",
+        "LoginPassword" : "//input[@id='login-passwd']"
+        
+    }
+
+}

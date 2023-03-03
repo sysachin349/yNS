@@ -1,0 +1,26 @@
+{
+    "config": {
+        "slowMo": "100",
+        "channel": "chrome",
+        "headless": "No",
+        "handlePopup": "0",
+        "xpath": "",
+        "Worker": "10",
+        "ProcessType": "notspam",
+        "spam_percentage": "100",
+        "inbox_percentage": "100",
+        "read_inbox": "No",
+        "read_spam": "No",
+        "seed_count": 746,
+        "ColorScheme": ""
+    },
+    "functions": {
+        "readInbox": "__readInbox",
+        "reply": "__reply",
+        "deleteMails": {
+            "Inbox": "True",
+            "Spam": "True"
+        },
+        "changePassword": "__changePassword"
+    }
+}
